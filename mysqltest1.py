@@ -17,7 +17,7 @@ cursor.execute("SELECT VERSION()")
 # 使用 fetchone() 方法获取单条数据.
 data = cursor.fetchone()
 
-print 'select result: %s' % (data)
+print('select result: %s' % (data))
 
 # 关闭数据库连接
 db.close()
